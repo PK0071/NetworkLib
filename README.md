@@ -4,6 +4,7 @@
 
 主要做的工作
 1.将Volley做成单例，不用每次使用都创建新的RequestQueue
+
 2.使用LruCache实现ImageLoader的内存缓存
 3.自定义Request配合Gson，将json封装成对象
 4.OkHttp3Stack实现HttpStack接口，使用OKHttpClient替换Volley sdk9以上的HurlStack，将OKHttp作为传输层
