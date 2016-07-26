@@ -13,6 +13,7 @@
 4.OkHttp3Stack实现HttpStack接口，使用OKHttpClient替换Volley sdk9以上的HurlStack，将OKHttp作为传输层
 
 使用方式，类似于
+
  manager.gsonGetRequest(
  
                 com.android.volley.Request.Method.GET,
